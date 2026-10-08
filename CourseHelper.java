@@ -20,7 +20,7 @@ public class CourseHelper {
         boolean running = true;
 
         System.out.println("Course Helper - example courses only");
-        while (running && input.hasNextLine()) {
+        while (running) {
             System.out.println("\n1. View courses");
             System.out.println("2. Mark a course as completed");
             System.out.println("3. Undo a completed course");
@@ -28,6 +28,9 @@ public class CourseHelper {
             System.out.println("5. View completed courses");
             System.out.println("0. Exit");
             System.out.print("Choose: ");
+            if (!input.hasNextLine()) {
+                break;
+            }
             String choice = input.nextLine().trim();
 
             switch (choice) {
