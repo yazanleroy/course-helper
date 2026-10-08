@@ -52,4 +52,3 @@ These are fictional course codes and requirements, not Al Ain University's offic
 - Add a maximum credit limit for a semester.
 
 For an Arabic walkthrough, see [EXPLANATION_AR.md](EXPLANATION_AR.md).
-
